@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace OTGH\AccessControl\EdgelinkAdapter;
 
-use App\Services\AccessControl\AccessControlCapabilityRegistry;
-use App\Services\AccessControl\OutputAdapterRegistry;
 use Illuminate\Support\ServiceProvider;
+use OTGH\AccessControl\Core\Services\AccessControl\AccessControlCapabilityRegistry;
+use OTGH\AccessControl\Core\Services\AccessControl\OutputAdapterRegistry;
 
 class EdgelinkAdapterServiceProvider extends ServiceProvider
 {

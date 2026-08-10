@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace OTGH\AccessControl\EdgelinkAdapter;
 
-use App\Services\AccessControl\OutputAdapterInterface;
+use OTGH\AccessControl\Core\Services\AccessControl\OutputAdapterInterface;
 use OTGH\LaravelEdgelink\LaravelEdgelinkClient;
 
 class EdgelinkOutputAdapter implements OutputAdapterInterface
